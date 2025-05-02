@@ -9,7 +9,7 @@ const BlogNavbar = () => {
     <nav className="navbar navbar-expand navbar-light bg-light px-3">
       <Link className="navbar-brand" to="/">Blog App</Link>
       <div className="navbar-nav">
-        <Link className="nav-link" to="/">Home</Link>
+        <Link className="nav-link" to="/posts">Posts</Link>
         {user && <Link className="nav-link" to="/create">Create a Post</Link>}
       </div>
       <div className="ms-auto">

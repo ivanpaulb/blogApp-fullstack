@@ -1,0 +1,8 @@
+{
+    "url": "https://blog-app-fullstack-black.vercel.app/",
+    "endpoints": {
+        "register": "/register",
+        "login": "/login",
+        "posts": "/posts"
+    }
+}

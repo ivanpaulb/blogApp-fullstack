@@ -21,7 +21,7 @@ function App() {
         <BlogNavbar />
         <div className="container mt-3">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/posts" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/posts/:id" element={<PostDetails />} />
