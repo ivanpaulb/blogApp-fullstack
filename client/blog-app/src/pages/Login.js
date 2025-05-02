@@ -22,7 +22,7 @@ const Login = () => {
     if (res.ok) {
       saveUserCredentials(data.access);
       notyf.success('Logged in successfully');
-      navigate('/');
+      navigate('/posts');
     } else {
       notyf.error(data.error || 'Login failed');
     }

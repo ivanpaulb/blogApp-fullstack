@@ -61,7 +61,7 @@ const PostDetails = () => {
     }, user.token);
     if (res.ok) {
       notyf.success('Post deleted');
-      navigate('/');
+      navigate('/posts');
     } else {
       const data = await res.json();
       notyf.error(data.error || 'Failed to delete post');

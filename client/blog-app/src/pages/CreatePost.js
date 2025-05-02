@@ -18,7 +18,7 @@ const CreatePost = () => {
 
     if (res.ok) {
       notyf.success('Post created');
-      navigate('/');
+      navigate('/posts');
     } else {
       const data = await res.json();
       notyf.error(data.error || 'Failed to create post');
